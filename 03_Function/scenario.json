@@ -1,0 +1,104 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1762769203505,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xe4139f907908733b786954ed32395c3cdf7914f3bc48abef0d8a53d7b5ef0336",
+        "contractName": "FunctionTypes",
+        "bytecode": "608060405260055f556102f6806100155f395ff3fe608060405260043610610054575f3560e01c8063303810a6146100585780634f2be91f146100765780637032c4f21461008c57806380b4ea08146100c85780638381f58a146100de578063b262eb7f14610108575b5f5ffd5b610060610132565b60405161006d91906101bb565b60405180910390f35b348015610081575f5ffd5b5061008a610141565b005b348015610097575f5ffd5b506100b260048036038101906100ad9190610202565b610156565b6040516100bf91906101bb565b60405180910390f35b3480156100d3575f5ffd5b506100dc61016b565b005b3480156100e9575f5ffd5b506100f2610175565b6040516100ff91906101bb565b60405180910390f35b348015610113575f5ffd5b5061011c61017a565b60405161012991906101bb565b60405180910390f35b5f61013b61018e565b47905090565b60015f5461014f919061025a565b5f81905550565b5f600182610164919061025a565b9050919050565b61017361018e565b565b5f5481565b5f60015f54610189919061025a565b905090565b60015f5461019c919061028d565b5f81905550565b5f819050919050565b6101b5816101a3565b82525050565b5f6020820190506101ce5f8301846101ac565b92915050565b5f5ffd5b6101e1816101a3565b81146101eb575f5ffd5b50565b5f813590506101fc816101d8565b92915050565b5f60208284031215610217576102166101d4565b5b5f610224848285016101ee565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f610264826101a3565b915061026f836101a3565b92508282019050808211156102875761028661022d565b5b92915050565b5f610297826101a3565b91506102a2836101a3565b92508282039050818111156102ba576102b961022d565b5b9291505056fea264697066735822122078c0ed717ece7fbea6cd70c71bbdaf0b129a8240feb38c433c4e24b4d8b3e4cb64736f6c634300081e0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xe4139f907908733b786954ed32395c3cdf7914f3bc48abef0d8a53d7b5ef0336": [
+      {
+        "inputs": [],
+        "name": "add",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "minusCall",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "minusPayable",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "balance",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "payable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_number",
+            "type": "uint256"
+          }
+        ],
+        "name": "addPure",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "new_number",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "addView",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "new_number",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "number",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
